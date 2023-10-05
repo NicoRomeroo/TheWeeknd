@@ -1,0 +1,75 @@
+header{
+    padding: 25px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: black;
+}
+nav{
+    width: 50%;
+    display: flex;
+    align-items: center;
+
+}
+ul{
+    width: 100%;
+    list-style: none;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+}
+.sectionBanner{
+    display: flex;
+    flex-direction: row;
+    background-color:  rgb(61, 5, 5);
+}
+.sectionBanner div{
+    display: flex;
+}
+.divTextoBanner{
+    flex-direction: column;
+    justify-content: center;
+}
+.divImgBanner{
+    justify-content: flex-end;
+    margin: 10px;
+}
+body{
+    padding: 0;
+    margin: 0;
+
+    background-color: rgb(61, 5, 5);
+}
+.imagen{
+    width: 500px; 
+    height: 625px;
+}
+
+h1{
+    font-size: 50px;
+    font-family: 'Fuggles', cursive;
+    font-family: 'Noto Sans NKo Unjoined', sans-serif;
+    color: white;
+}
+h2, h3{
+    font-family: "times new roman", sans-serif;
+    color: rgb(255, 255, 255);
+}
+h2{
+    text-align: center;
+}
+a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+div, fieldset, legend, p{
+    color: white;
+}
+footer{
+    padding: 15px;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+    align-items: center;
+    background-color: black;
+}
