@@ -1,3 +1,7 @@
+a:hover{
+    color: rgb(61, 5, 5);
+    border-bottom: solid;
+}
 header{
     padding: 25px;
     display: flex;
@@ -16,6 +20,8 @@ ul{
     display: flex;
     flex-flow: row nowrap;
     justify-content: space-around;
+    font-family: "Gurajada", sans-serif;
+    font-size: 175%;
 }
 .sectionBanner{
     display: flex;
@@ -44,16 +50,21 @@ body{
 .imagen{
     width: 500px; 
     height: 625px;
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px;
 }
-
 h1{
-    font-size: 50px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: white;
+    font-size: 50px;
+    font-family: "Rye", cursive;
+}
+p{
+    font-family: "Bellefair", cursive;
 }
 h2, h3{
-    font-family: "times new roman", sans-serif;
+    font-family: "Gurajada", sans-serif;
     color: rgb(255, 255, 255);
+    font-size: 220%;
 }
 h2{
     text-align: center;
@@ -64,6 +75,22 @@ a{
 }
 div, fieldset, legend, p{
     color: white;
+}
+.igColor{
+    box-shadow: 2px 2px 2px;
+    border-radius: 10px;
+}
+.ytColor{
+    box-shadow: 2px 2px 2px;
+    border-radius: 10px;
+}
+.twitterColor{
+    box-shadow: 2px 2px 2px;
+    border-radius: 10px;
+}
+.faceColor{
+    box-shadow: 2px 2px 2px;
+    border-radius: 10px;
 }
 .galeriaItem{
     display: grid;
@@ -76,6 +103,7 @@ div, fieldset, legend, p{
     width: 100%;
     height: 100%;
     object-fit: cover;
+    border-radius: 20px;
 }
 @media (min-width: 375px){
     ul{
