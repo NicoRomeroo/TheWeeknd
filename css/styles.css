@@ -76,19 +76,19 @@ a{
 div, fieldset, legend, p{
     color: white;
 }
-.igColor{
+.instagram{
     box-shadow: 2px 2px 2px;
     border-radius: 10px;
 }
-.ytColor{
+.youtube{
     box-shadow: 2px 2px 2px;
     border-radius: 10px;
 }
-.twitterColor{
+.twitter{
     box-shadow: 2px 2px 2px;
     border-radius: 10px;
 }
-.faceColor{
+.facebook{
     box-shadow: 2px 2px 2px;
     border-radius: 10px;
 }
