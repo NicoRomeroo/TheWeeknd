@@ -1,13 +1,31 @@
-a:hover{
+li:hover{
     color: rgb(61, 5, 5);
     border-bottom: solid;
 }
+body{
+    padding: 0;
+    margin: 0;
+    background-color: #6D0000;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 1000'%3E%3Cg %3E%3Ccircle fill='%236D0000' cx='50' cy='0' r='50'/%3E%3Cg fill='%23690102' %3E%3Ccircle cx='0' cy='50' r='50'/%3E%3Ccircle cx='100' cy='50' r='50'/%3E%3C/g%3E%3Ccircle fill='%23640203' cx='50' cy='100' r='50'/%3E%3Cg fill='%23600304' %3E%3Ccircle cx='0' cy='150' r='50'/%3E%3Ccircle cx='100' cy='150' r='50'/%3E%3C/g%3E%3Ccircle fill='%235b0405' cx='50' cy='200' r='50'/%3E%3Cg fill='%23560506' %3E%3Ccircle cx='0' cy='250' r='50'/%3E%3Ccircle cx='100' cy='250' r='50'/%3E%3C/g%3E%3Ccircle fill='%23520607' cx='50' cy='300' r='50'/%3E%3Cg fill='%234d0608' %3E%3Ccircle cx='0' cy='350' r='50'/%3E%3Ccircle cx='100' cy='350' r='50'/%3E%3C/g%3E%3Ccircle fill='%23490708' cx='50' cy='400' r='50'/%3E%3Cg fill='%23440808' %3E%3Ccircle cx='0' cy='450' r='50'/%3E%3Ccircle cx='100' cy='450' r='50'/%3E%3C/g%3E%3Ccircle fill='%23400808' cx='50' cy='500' r='50'/%3E%3Cg fill='%233b0908' %3E%3Ccircle cx='0' cy='550' r='50'/%3E%3Ccircle cx='100' cy='550' r='50'/%3E%3C/g%3E%3Ccircle fill='%23370908' cx='50' cy='600' r='50'/%3E%3Cg fill='%23320907' %3E%3Ccircle cx='0' cy='650' r='50'/%3E%3Ccircle cx='100' cy='650' r='50'/%3E%3C/g%3E%3Ccircle fill='%232e0907' cx='50' cy='700' r='50'/%3E%3Cg fill='%232a0906' %3E%3Ccircle cx='0' cy='750' r='50'/%3E%3Ccircle cx='100' cy='750' r='50'/%3E%3C/g%3E%3Ccircle fill='%23260705' cx='50' cy='800' r='50'/%3E%3Cg fill='%23220504' %3E%3Ccircle cx='0' cy='850' r='50'/%3E%3Ccircle cx='100' cy='850' r='50'/%3E%3C/g%3E%3Ccircle fill='%231e0403' cx='50' cy='900' r='50'/%3E%3Cg fill='%23190201' %3E%3Ccircle cx='0' cy='950' r='50'/%3E%3Ccircle cx='100' cy='950' r='50'/%3E%3C/g%3E%3Ccircle fill='%23130000' cx='50' cy='1000' r='50'/%3E%3C/g%3E%3C/svg%3E");
+    background-attachment: fixed;
+    background-size: contain;}   
 header{
     padding: 25px;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     background-color: black;
+}
+footer{
+    padding: 15px;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+    align-items: center;
+    background-color: black;
+}
+footer h3{
+    font-size: 125%;
 }
 nav{
     width: 50%;
@@ -23,34 +41,19 @@ ul{
     font-family: "Gurajada", sans-serif;
     font-size: 175%;
 }
-.sectionBanner{
+.textoBanner{
+    margin-top: 50px;
+    padding: 5%;
     display: flex;
-    flex-direction: row;
-    background-color:  rgb(61, 5, 5);
-}
-.sectionBanner div{
-    display: flex;
-}
-.divTextoBanner{
-    display: flex;
-    flex-direction: column;
     justify-content: center;
-    padding: 3%;
 }
-.divImgBanner{
-    justify-content: flex-end;
-    margin: 10px;
-}
-body{
-    padding: 0;
-    margin: 0;
-
-    background-color: rgb(61, 5, 5);
+.infoPrincipal{
+    padding-left: 25px;
 }
 .imagen{
     width: 500px; 
     height: 625px;
-    border-radius: 20px;
+    border-radius: 10px;
     box-shadow: 5px 5px 5px;
 }
 h1{
@@ -138,57 +141,157 @@ div, fieldset, legend, p{
         grid-template-columns: repeat(3, 1fr);
     }
 }
-.discografia{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-}
-footer{
-    padding: 15px;
-    display: flex;
-    flex-flow: row nowrap;
-    justify-content: space-around;
-    align-items: center;
-    background-color: black;
-}
-.sectionCarreraArtistica{
+.textoDiscografia{
     display: flex;
     justify-content: center;
-    flex-flow: row wrap;
+    font-size: 100%;
+}
+.discografiaTrilogy{
+    display: inline-block;
+    margin-top: 15px;
+    margin-left: 20px;
+}
+.discografiaKissLand{
+    display: inline-block;
+    margin-top: 15px;
+    margin-left: 20px;
+}
+.discografiaBeautyBehindTheMadness{
+    display: inline-block;
+    margin-top: 15px;
+    margin-left: 20px;
+}
+.discografiaStarboy{
+    display: inline-block;
+    margin-top: 15px;
+    margin-left: 20px;
+}
+.discografiaMyDearMelancholy{
+    display: inline-block;
+    margin-top: 15px;
+    margin-left: 20px;
+    margin-bottom: 15px;
+}
+.discografiaAfterHours{
+    display: inline-block;
+    margin-top: 15px;
+    margin-left: 20px;
+    margin-bottom: 15px;
+}
+.discografiaDawnFM{
+    display: inline-block;
+    margin-top: 15px;
+    margin-left: 20px;
+    margin-bottom: 15px;
+}
+.discografiaSpotify{
+    display: inline-block;
+    margin-left: 20px;
+}
+.discografiaSpotify p{
+    text-align: center;
+}
+.imgSpotify{
+    margin-left: 40px;
+}
+.bodyCarrera{
+    margin: 0;
+}
+.sectionCarreraArtistica{
+    padding: 30px;
+}
+.primerosAñosDeVidaInfo{
+    display: flex;
+    justify-content: space-between;
     padding: 40px;
-    width: 50%;
-    margin: 15px auto;
+    width: 90%;
+    margin: 15px;
+    background: radial-gradient(circle, rgba(180,174,238,1) 0%, rgba(0,0,0,1) 100%);
+    border-radius: 20px;
+    box-shadow: 10px 10px 10px;
+}
+.iniciosDeSuCarreraYMixtapesInfo{
+    display: flex;
+    justify-content: space-between;
+    padding: 40px;
+    width: 90%;
+    margin: 15px;
+    background: linear-gradient(90deg, rgba(4,3,3,1) 0%, rgba(64,59,59,1) 100%);
+    border-radius: 20px;
+    box-shadow: 10px 10px 10px;
+}
+.trilogyKissLandInfo{
+    display: flex;
+    justify-content: space-between;
+    padding: 40px;
+    width: 90%;
+    margin: 15px;
+    background: linear-gradient(90deg, rgba(17,15,15,1) 0%, rgba(6,32,8,1) 46%, rgba(27,186,37,1) 100%);
+    border-radius: 20px;
+    box-shadow: 10px 10px 10px;
+}
+.beautyBehindTheMadnessInfo{
+    display: flex;
+    justify-content: space-between;
+    padding: 40px;
+    width: 90%;
+    margin: 15px;
+    background: linear-gradient(90deg, rgba(17,16,16,1) 0%, rgba(255,255,48,1) 100%);
+    border-radius: 20px;
+    box-shadow: 10px 10px 10px;
+}
+.starboyYMyDearMelancholyInfo{
+    display: flex;
+    justify-content: space-between;
+    padding: 40px;
+    width: 90%;
+    margin: 15px;
+    background: linear-gradient(90deg, rgba(24,17,17,1) 0%, rgba(191,22,22,1) 46%, rgba(255,128,0,1) 100%);
+    border-radius: 20px;
+    box-shadow: 10px 10px 10px;
+}
+.afterHoursYDawnFMInfo{
+    display: flex;
+    justify-content: space-between;
+    padding: 40px;
+    width: 90%;
+    margin: 15px;
+    background: linear-gradient(90deg, rgba(24,17,17,1) 0%, rgba(85,12,12,1) 46%, rgba(32,82,108,1) 100%);
     border-radius: 20px;
     box-shadow: 10px 10px 10px;
 }
 .primerosAñosDeVida{
     width: 400px;
-    height: 600px;
+    height: 550px;
+    border-radius: 30px;
 }
 .iniciosDeSuCarreraYMixtapes{
-    width: 400px;
+    width: 500px;
     height: 600px;
+    border-radius: 30px;
 }
 .trilogyKissLand{
-    width: 400px;
-    height: 600px;
+    width: 600px;
+    height: 650px;
+    border-radius: 30px;
 }
 .beautyBehindTheMadness{
-    width: 400px;
-    height: 600px;
+    width: 600px;
+    height: 650px;
+    border-radius: 30px;
 }
 .starboyYMyDearMelancholy{
-    width: 400px;
-    height: 600px;
+    width: 450px;
+    height: 550px;
+    border-radius: 30px;
 }
 .afterHoursYDawnFM{
-    width: 400px;
-    height: 600px;
-}
-.section img{
-    width: 200px;
+    width: 600px;
+    height: 650px;
     border-radius: 30px;
-    border: dashed 3px; color:black;
+}
+.sectionCarreraArtistica p{
+    margin-right: 20px;
 }
 .formulario{
     display: flex;
