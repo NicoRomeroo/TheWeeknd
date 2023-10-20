@@ -1,0 +1,63 @@
+@import "base";
+body{
+    padding: 0;
+    margin: 0;
+    background-color: #6D0000;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 1000'%3E%3Cg %3E%3Ccircle fill='%236D0000' cx='50' cy='0' r='50'/%3E%3Cg fill='%23690102' %3E%3Ccircle cx='0' cy='50' r='50'/%3E%3Ccircle cx='100' cy='50' r='50'/%3E%3C/g%3E%3Ccircle fill='%23640203' cx='50' cy='100' r='50'/%3E%3Cg fill='%23600304' %3E%3Ccircle cx='0' cy='150' r='50'/%3E%3Ccircle cx='100' cy='150' r='50'/%3E%3C/g%3E%3Ccircle fill='%235b0405' cx='50' cy='200' r='50'/%3E%3Cg fill='%23560506' %3E%3Ccircle cx='0' cy='250' r='50'/%3E%3Ccircle cx='100' cy='250' r='50'/%3E%3C/g%3E%3Ccircle fill='%23520607' cx='50' cy='300' r='50'/%3E%3Cg fill='%234d0608' %3E%3Ccircle cx='0' cy='350' r='50'/%3E%3Ccircle cx='100' cy='350' r='50'/%3E%3C/g%3E%3Ccircle fill='%23490708' cx='50' cy='400' r='50'/%3E%3Cg fill='%23440808' %3E%3Ccircle cx='0' cy='450' r='50'/%3E%3Ccircle cx='100' cy='450' r='50'/%3E%3C/g%3E%3Ccircle fill='%23400808' cx='50' cy='500' r='50'/%3E%3Cg fill='%233b0908' %3E%3Ccircle cx='0' cy='550' r='50'/%3E%3Ccircle cx='100' cy='550' r='50'/%3E%3C/g%3E%3Ccircle fill='%23370908' cx='50' cy='600' r='50'/%3E%3Cg fill='%23320907' %3E%3Ccircle cx='0' cy='650' r='50'/%3E%3Ccircle cx='100' cy='650' r='50'/%3E%3C/g%3E%3Ccircle fill='%232e0907' cx='50' cy='700' r='50'/%3E%3Cg fill='%232a0906' %3E%3Ccircle cx='0' cy='750' r='50'/%3E%3Ccircle cx='100' cy='750' r='50'/%3E%3C/g%3E%3Ccircle fill='%23260705' cx='50' cy='800' r='50'/%3E%3Cg fill='%23220504' %3E%3Ccircle cx='0' cy='850' r='50'/%3E%3Ccircle cx='100' cy='850' r='50'/%3E%3C/g%3E%3Ccircle fill='%231e0403' cx='50' cy='900' r='50'/%3E%3Cg fill='%23190201' %3E%3Ccircle cx='0' cy='950' r='50'/%3E%3Ccircle cx='100' cy='950' r='50'/%3E%3C/g%3E%3Ccircle fill='%23130000' cx='50' cy='1000' r='50'/%3E%3C/g%3E%3C/svg%3E");
+    background-attachment: fixed;
+    background-size: contain;
+} 
+header{
+    padding: 25px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: $fondoHeader;
+}
+h1{
+    color: $colorTitulos;
+    font-size: 50px;
+    font-family: 'Cormorant Garamond', serif; 
+}
+nav{
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+ul{
+    width: 100%;
+    list-style: none;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+    font-family: "Mohave", serif;
+    font-size: 100%;
+}
+a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    &:hover{
+        color: rgb(61, 5, 5);
+        border-bottom: solid;
+    }
+}
+h2{
+    text-align: center;
+    h3{
+    font-family: 'Mohave', sans-serif;
+    color: $colorTitulos;
+    font-size: 150%;
+    margin: 10px;
+    }
+}
+p{
+    color: white;
+}
+footer{
+    padding: 15px;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+    align-items: center;
+    background-color: black;
+}
