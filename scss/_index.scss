@@ -1,0 +1,27 @@
+
+.theWeekndPortada{
+    color: $colorTitulos;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px;
+}
+.infoPrincipal{
+    padding-left: 25px;
+}
+.textoBanner{
+    margin-top: 50px;
+    padding: 5%;
+    display: flex;
+    justify-content: center;
+}
+@media (min-width: 300px){
+    .textoBanner{
+        display: flex;
+        flex-direction: column;
+    }
+}
+@media (min-width: 768px){
+    .textoBanner{
+        display: flex;
+        flex-direction: row;
+    }
+}

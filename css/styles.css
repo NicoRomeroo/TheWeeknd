@@ -1,3 +1,352 @@
+@charset "UTF-8";
+.theWeekndPortada {
+  color: white;
+  border-radius: 10px;
+  box-shadow: 5px 5px 5px;
+}
+
+.infoPrincipal {
+  padding-left: 25px;
+}
+
+.textoBanner {
+  margin-top: 50px;
+  padding: 5%;
+  display: flex;
+  justify-content: center;
+}
+
+@media (min-width: 300px) {
+  .textoBanner {
+    display: flex;
+    flex-direction: column;
+  }
+}
+@media (min-width: 768px) {
+  .textoBanner {
+    display: flex;
+    flex-direction: row;
+  }
+}
+.textoDiscografia {
+  display: flex;
+  justify-content: center;
+  font-size: 100%;
+}
+
+.discografiaTrilogy {
+  display: inline-block;
+  margin-top: 15px;
+  margin-left: 20px;
+}
+
+.discografiaKissLand {
+  display: inline-block;
+  margin-top: 15px;
+  margin-left: 20px;
+}
+
+.discografiaBeautyBehindTheMadness {
+  display: inline-block;
+  margin-top: 15px;
+  margin-left: 20px;
+}
+
+.discografiaStarboy {
+  display: inline-block;
+  margin-top: 15px;
+  margin-left: 20px;
+}
+
+.discografiaMyDearMelancholy {
+  display: inline-block;
+  margin-top: 15px;
+  margin-left: 20px;
+  margin-bottom: 15px;
+}
+
+.discografiaAfterHours {
+  display: inline-block;
+  margin-top: 15px;
+  margin-left: 20px;
+  margin-bottom: 15px;
+}
+
+.discografiaDawnFM {
+  display: inline-block;
+  margin-top: 15px;
+  margin-left: 20px;
+  margin-bottom: 15px;
+}
+
+.discografiaSpotify {
+  display: inline-block;
+  margin-left: 20px;
+}
+
+.discografiaSpotify p {
+  text-align: center;
+}
+
+.imgSpotify {
+  margin: auto;
+  padding-left: 5px;
+  width: 150px;
+}
+
+.bodyCarrera {
+  margin: 0;
+}
+
+.sectionCarreraArtistica {
+  padding: 30px;
+}
+
+.primerosAñosDeVidaInfo {
+  display: flex;
+  justify-content: space-between;
+  padding: 40px;
+  width: 90%;
+  margin: auto;
+  background: radial-gradient(circle, rgb(180, 174, 238) 0%, rgb(0, 0, 0) 100%);
+  border-radius: 20px;
+  box-shadow: 10px 10px 10px;
+  color: white;
+}
+
+.primerosAñosDeVida {
+  border-radius: 30px;
+}
+
+@media (min-width: 300px) {
+  .primerosAñosDeVidaInfo {
+    display: flex;
+    flex-direction: column;
+    margin: 15px;
+    padding: 10px;
+  }
+}
+@media (min-width: 768px) {
+  .primerosAñosDeVidaInfo {
+    display: flex;
+    flex-direction: row;
+    padding: 40px;
+  }
+}
+.iniciosDeSuCarreraYMixtapesInfo {
+  display: flex;
+  justify-content: space-between;
+  padding: 40px;
+  width: 90%;
+  margin: auto;
+  background: linear-gradient(90deg, rgb(4, 3, 3) 0%, rgb(64, 59, 59) 100%);
+  border-radius: 20px;
+  box-shadow: 10px 10px 10px;
+  color: white;
+}
+
+.iniciosDeSuCarreraYMixtapes {
+  border-radius: 30px;
+}
+
+@media (min-width: 300px) {
+  .iniciosDeSuCarreraYMixtapesInfo {
+    display: flex;
+    flex-direction: column;
+    margin: 15px;
+    padding: 10px;
+  }
+}
+@media (min-width: 768px) {
+  .iniciosDeSuCarreraYMixtapesInfo {
+    display: flex;
+    flex-direction: row;
+    padding: 40px;
+  }
+}
+.trilogyKissLandInfo {
+  display: flex;
+  justify-content: space-between;
+  padding: 40px;
+  width: 90%;
+  margin: auto;
+  background: linear-gradient(90deg, rgb(17, 15, 15) 0%, rgb(6, 32, 8) 46%, rgb(27, 186, 37) 100%);
+  border-radius: 20px;
+  box-shadow: 10px 10px 10px;
+  color: white;
+}
+
+.trilogyKissLand {
+  border-radius: 30px;
+}
+
+@media (min-width: 300px) {
+  .trilogyKissLandInfo {
+    display: flex;
+    flex-direction: column;
+    margin: 15px;
+    padding: 10px;
+  }
+}
+@media (min-width: 768px) {
+  .trilogyKissLandInfo {
+    display: flex;
+    flex-direction: row;
+    padding: 40px;
+  }
+}
+.beautyBehindTheMadnessInfo {
+  display: flex;
+  justify-content: space-between;
+  padding: 40px;
+  width: 90%;
+  margin: auto;
+  background: linear-gradient(90deg, rgb(17, 16, 16) 0%, rgb(255, 255, 48) 100%);
+  border-radius: 20px;
+  box-shadow: 10px 10px 10px;
+  color: white;
+}
+
+.beautyBehindTheMadness {
+  border-radius: 30px;
+}
+
+@media (min-width: 300px) {
+  .beautyBehindTheMadnessInfo {
+    display: flex;
+    flex-direction: column;
+    margin: 15px;
+    padding: 10px;
+  }
+}
+@media (min-width: 768px) {
+  .beautyBehindTheMadnessInfo {
+    display: flex;
+    flex-direction: row;
+    padding: 40px;
+  }
+}
+.starboyYMyDearMelancholyInfo {
+  display: flex;
+  justify-content: space-between;
+  padding: 40px;
+  width: 90%;
+  margin: auto;
+  background: linear-gradient(90deg, rgb(24, 17, 17) 0%, rgb(191, 22, 22) 46%, rgb(255, 128, 0) 100%);
+  border-radius: 20px;
+  box-shadow: 10px 10px 10px;
+  color: white;
+}
+
+.starboyYMyDearMelancholy {
+  border-radius: 30px;
+}
+
+@media (min-width: 300px) {
+  .starboyYMyDearMelancholyInfo {
+    display: flex;
+    flex-direction: column;
+    margin: 15px;
+    padding: 10px;
+  }
+}
+@media (min-width: 768px) {
+  .starboyYMyDearMelancholyInfo {
+    display: flex;
+    flex-direction: row;
+    padding: 40px;
+  }
+}
+.afterHoursYDawnFMInfo {
+  display: flex;
+  justify-content: space-between;
+  padding: 40px;
+  width: 90%;
+  margin: auto;
+  background: linear-gradient(90deg, rgb(24, 17, 17) 0%, rgb(85, 12, 12) 46%, rgb(32, 82, 108) 100%);
+  border-radius: 20px;
+  box-shadow: 10px 10px 10px;
+  color: white;
+}
+
+.afterHoursYDawnFM {
+  border-radius: 30px;
+}
+
+@media (min-width: 300px) {
+  .afterHoursYDawnFMInfo {
+    display: flex;
+    flex-direction: column;
+    margin: 15px;
+    padding: 10px;
+  }
+}
+@media (min-width: 768px) {
+  .afterHoursYDawnFMInfo {
+    display: flex;
+    flex-direction: row;
+    padding: 40px;
+  }
+}
+.sectionCarreraArtistica p {
+  margin-right: 20px;
+}
+
+.galeriaItem {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-auto-rows: 350px;
+  padding: 20px;
+  grid-gap: 10px;
+}
+
+.galeriaImg {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 20px;
+}
+
+@media (min-width: 0px) {
+  ul {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+}
+@media (min-width: 768px) {
+  ul {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+    align-items: center;
+  }
+}
+@media (min-width: 300px) {
+  .galeriaItem {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+@media (min-width: 768px) {
+  .galeriaItem {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+@media (min-width: 1024px) {
+  .galeriaItem {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+.formulario {
+  display: flex;
+  justify-content: center;
+  padding: 5%;
+  font-size: 80%;
+}
+
 body {
   padding: 0;
   margin: 0;
@@ -23,8 +372,8 @@ h1 {
 
 nav {
   display: flex;
+  justify-content: space-around;
   align-items: center;
-  list-style: none;
 }
 
 ul {
@@ -32,7 +381,6 @@ ul {
   list-style: none;
   display: flex;
   flex-flow: row nowrap;
-  justify-content: space-around;
   font-family: "Mohave", serif;
   font-size: 100%;
 }
@@ -48,8 +396,13 @@ a:hover {
 
 h2 {
   text-align: center;
+  font-family: "Mohave", sans-serif;
+  color: white;
+  font-size: 150%;
+  margin: 10px;
 }
-h2 h3 {
+
+h3 {
   font-family: "Mohave", sans-serif;
   color: white;
   font-size: 150%;
@@ -57,7 +410,12 @@ h2 h3 {
 }
 
 p {
+  font-family: "Bellefair", cursive;
   color: white;
+}
+
+footer h3 {
+  font-size: 100%;
 }
 
 footer {
@@ -67,6 +425,30 @@ footer {
   justify-content: space-around;
   align-items: center;
   background-color: black;
+}
+
+.instagram {
+  box-shadow: 2px 2px 2px;
+  border-radius: 10px;
+}
+
+.youtube {
+  box-shadow: 2px 2px 2px;
+  border-radius: 10px;
+}
+
+.twitter {
+  box-shadow: 2px 2px 2px;
+  border-radius: 10px;
+}
+
+.facebook {
+  box-shadow: 2px 2px 2px;
+  border-radius: 10px;
+}
+
+div, fieldset, legend {
+  color: white;
 }
 
 /*# sourceMappingURL=styles.css.map */

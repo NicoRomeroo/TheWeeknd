@@ -1,4 +1,9 @@
 @import "base";
+@import "index";
+@import "discografia";
+@import "carrera";
+@import "galeria";
+@import "contacto";
 body{
     padding: 0;
     margin: 0;
@@ -21,15 +26,14 @@ h1{
 }
 nav{
     display: flex;
+    justify-content: space-around;
     align-items: center;
-    list-style: none;
 }
 ul{
     width: 100%;
     list-style: none;
     display: flex;
     flex-flow: row nowrap;
-    justify-content: space-around;
     font-family: "Mohave", serif;
     font-size: 100%;
 }
@@ -43,15 +47,23 @@ a{
 }
 h2{
     text-align: center;
-    h3{
     font-family: 'Mohave', sans-serif;
     color: $colorTitulos;
     font-size: 150%;
     margin: 10px;
-    }
+}
+h3{
+    font-family: 'Mohave', sans-serif;
+    color: $colorTitulos;
+    font-size: 150%;
+    margin: 10px;
 }
 p{
+    font-family: "Bellefair", cursive;
     color: white;
+}
+footer h3{
+    font-size: 100%;
 }
 footer{
     padding: 15px;
@@ -60,4 +72,23 @@ footer{
     justify-content: space-around;
     align-items: center;
     background-color: black;
+}
+.instagram{
+    box-shadow: 2px 2px 2px;
+    border-radius: 10px;
+}
+.youtube{
+    box-shadow: 2px 2px 2px;
+    border-radius: 10px;
+}
+.twitter{
+    box-shadow: 2px 2px 2px;
+    border-radius: 10px;
+}
+.facebook{
+    box-shadow: 2px 2px 2px;
+    border-radius: 10px;
+}
+div, fieldset,legend{
+    color: white;
 }

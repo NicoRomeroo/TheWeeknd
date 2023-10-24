@@ -1,0 +1,178 @@
+.bodyCarrera{
+    margin: 0;
+}
+.sectionCarreraArtistica{
+    padding: 30px;
+}
+.primerosAñosDeVidaInfo{
+    display: flex;
+    justify-content: space-between;
+    padding: 40px;
+    width: 90%;
+    margin: auto;
+    background: radial-gradient(circle, rgba(180,174,238,1) 0%, rgba(0,0,0,1) 100%);
+    border-radius: 20px;
+    box-shadow: 10px 10px 10px; color: $colorTitulos;
+}
+.primerosAñosDeVida{
+    border-radius: 30px;
+}
+@media (min-width: 300px){
+    .primerosAñosDeVidaInfo{
+        display: flex;
+        flex-direction: column;
+        margin: 15px;
+        padding: 10px;
+    }
+}
+@media (min-width: 768px){
+    .primerosAñosDeVidaInfo{
+        display: flex;
+        flex-direction: row;
+        padding: 40px;
+    }
+}
+.iniciosDeSuCarreraYMixtapesInfo{
+    display: flex;
+    justify-content: space-between;
+    padding: 40px;
+    width: 90%;
+    margin: auto;
+    background: linear-gradient(90deg, rgba(4,3,3,1) 0%, rgba(64,59,59,1) 100%);
+    border-radius: 20px;
+    box-shadow: 10px 10px 10px; color: $colorTitulos;
+}
+.iniciosDeSuCarreraYMixtapes{
+    border-radius: 30px;
+}
+@media (min-width: 300px){
+    .iniciosDeSuCarreraYMixtapesInfo{
+        display: flex;
+        flex-direction: column;
+        margin: 15px;
+        padding: 10px;
+    }
+}
+@media (min-width: 768px){
+    .iniciosDeSuCarreraYMixtapesInfo{
+        display: flex;
+        flex-direction: row;
+        padding: 40px;
+    }
+}
+.trilogyKissLandInfo{
+    display: flex;
+    justify-content: space-between;
+    padding: 40px;
+    width: 90%;
+    margin: auto;
+    background: linear-gradient(90deg, rgba(17,15,15,1) 0%, rgba(6,32,8,1) 46%, rgba(27,186,37,1) 100%);
+    border-radius: 20px;
+    box-shadow: 10px 10px 10px; color: $colorTitulos;
+}
+.trilogyKissLand{
+    border-radius: 30px;
+}
+@media (min-width: 300px){
+    .trilogyKissLandInfo{
+        display: flex;
+        flex-direction: column;
+        margin: 15px;
+        padding: 10px;
+    }
+}
+@media (min-width: 768px){
+    .trilogyKissLandInfo{
+        display: flex;
+        flex-direction: row;
+        padding: 40px;
+    }
+}
+.beautyBehindTheMadnessInfo{
+    display: flex;
+    justify-content: space-between;
+    padding: 40px;
+    width: 90%;
+    margin: auto;
+    background: linear-gradient(90deg, rgba(17,16,16,1) 0%, rgba(255,255,48,1) 100%);
+    border-radius: 20px;
+    box-shadow: 10px 10px 10px; color: $colorTitulos;
+}
+.beautyBehindTheMadness{
+    border-radius: 30px;
+}
+@media (min-width: 300px){
+    .beautyBehindTheMadnessInfo{
+        display: flex;
+        flex-direction: column;
+        margin: 15px;
+        padding: 10px;
+    }
+}
+@media (min-width: 768px){
+    .beautyBehindTheMadnessInfo{
+        display: flex;
+        flex-direction: row;
+        padding: 40px;
+    }
+}
+.starboyYMyDearMelancholyInfo{
+    display: flex;
+    justify-content: space-between;
+    padding: 40px;
+    width: 90%;
+    margin: auto;
+    background: linear-gradient(90deg, rgba(24,17,17,1) 0%, rgba(191,22,22,1) 46%, rgba(255,128,0,1) 100%);
+    border-radius: 20px;
+    box-shadow: 10px 10px 10px; color: $colorTitulos;
+}
+.starboyYMyDearMelancholy{
+    border-radius: 30px;
+}
+@media (min-width: 300px){
+    .starboyYMyDearMelancholyInfo{
+        display: flex;
+        flex-direction: column;
+        margin: 15px;
+        padding: 10px;
+    }
+}
+@media (min-width: 768px){
+    .starboyYMyDearMelancholyInfo{
+        display: flex;
+        flex-direction: row;
+        padding: 40px;
+
+    }
+}
+.afterHoursYDawnFMInfo{
+    display: flex;
+    justify-content: space-between;
+    padding: 40px;
+    width: 90%;
+    margin: auto;
+    background: linear-gradient(90deg, rgba(24,17,17,1) 0%, rgba(85,12,12,1) 46%, rgba(32,82,108,1) 100%);
+    border-radius: 20px;
+    box-shadow: 10px 10px 10px; color: $colorTitulos;
+}
+.afterHoursYDawnFM{
+    border-radius: 30px;
+}
+@media (min-width: 300px){
+    .afterHoursYDawnFMInfo{
+        display: flex;
+        flex-direction: column;
+        margin: 15px;
+        padding: 10px;
+    }
+}
+@media (min-width: 768px){
+    .afterHoursYDawnFMInfo{
+        display: flex;
+        flex-direction: row;
+        padding: 40px;
+    }
+}
+.sectionCarreraArtistica p{
+    margin-right: 20px;
+}
