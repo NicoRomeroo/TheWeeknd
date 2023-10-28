@@ -11,24 +11,6 @@
     object-fit: cover;
     border-radius: 20px;
 }
-@media (min-width: 0px){
-    ul{
-        height: 100%;
-        width: 100%;
-        display: flex;
-        flex-direction: column;
-    }
-}
-@media (min-width: 768px){
-    ul{
-        height: 100%;
-        width: 100%;
-        display: flex;
-        flex-flow: row nowrap;
-        justify-content: space-around;
-        align-items: center;
-    }
-}
 @media (min-width: 300px){
     .galeriaItem{
         grid-template-columns: repeat(1, 1fr);

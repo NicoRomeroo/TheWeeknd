@@ -17,21 +17,6 @@
 .primerosAñosDeVida{
     border-radius: 30px;
 }
-@media (min-width: 300px){
-    .primerosAñosDeVidaInfo{
-        display: flex;
-        flex-direction: column;
-        margin: 15px;
-        padding: 10px;
-    }
-}
-@media (min-width: 768px){
-    .primerosAñosDeVidaInfo{
-        display: flex;
-        flex-direction: row;
-        padding: 40px;
-    }
-}
 .iniciosDeSuCarreraYMixtapesInfo{
     display: flex;
     justify-content: space-between;
@@ -44,21 +29,6 @@
 }
 .iniciosDeSuCarreraYMixtapes{
     border-radius: 30px;
-}
-@media (min-width: 300px){
-    .iniciosDeSuCarreraYMixtapesInfo{
-        display: flex;
-        flex-direction: column;
-        margin: 15px;
-        padding: 10px;
-    }
-}
-@media (min-width: 768px){
-    .iniciosDeSuCarreraYMixtapesInfo{
-        display: flex;
-        flex-direction: row;
-        padding: 40px;
-    }
 }
 .trilogyKissLandInfo{
     display: flex;
@@ -73,21 +43,6 @@
 .trilogyKissLand{
     border-radius: 30px;
 }
-@media (min-width: 300px){
-    .trilogyKissLandInfo{
-        display: flex;
-        flex-direction: column;
-        margin: 15px;
-        padding: 10px;
-    }
-}
-@media (min-width: 768px){
-    .trilogyKissLandInfo{
-        display: flex;
-        flex-direction: row;
-        padding: 40px;
-    }
-}
 .beautyBehindTheMadnessInfo{
     display: flex;
     justify-content: space-between;
@@ -100,21 +55,6 @@
 }
 .beautyBehindTheMadness{
     border-radius: 30px;
-}
-@media (min-width: 300px){
-    .beautyBehindTheMadnessInfo{
-        display: flex;
-        flex-direction: column;
-        margin: 15px;
-        padding: 10px;
-    }
-}
-@media (min-width: 768px){
-    .beautyBehindTheMadnessInfo{
-        display: flex;
-        flex-direction: row;
-        padding: 40px;
-    }
 }
 .starboyYMyDearMelancholyInfo{
     display: flex;
@@ -129,22 +69,6 @@
 .starboyYMyDearMelancholy{
     border-radius: 30px;
 }
-@media (min-width: 300px){
-    .starboyYMyDearMelancholyInfo{
-        display: flex;
-        flex-direction: column;
-        margin: 15px;
-        padding: 10px;
-    }
-}
-@media (min-width: 768px){
-    .starboyYMyDearMelancholyInfo{
-        display: flex;
-        flex-direction: row;
-        padding: 40px;
-
-    }
-}
 .afterHoursYDawnFMInfo{
     display: flex;
     justify-content: space-between;
@@ -157,21 +81,6 @@
 }
 .afterHoursYDawnFM{
     border-radius: 30px;
-}
-@media (min-width: 300px){
-    .afterHoursYDawnFMInfo{
-        display: flex;
-        flex-direction: column;
-        margin: 15px;
-        padding: 10px;
-    }
-}
-@media (min-width: 768px){
-    .afterHoursYDawnFMInfo{
-        display: flex;
-        flex-direction: row;
-        padding: 40px;
-    }
 }
 .sectionCarreraArtistica p{
     margin-right: 20px;

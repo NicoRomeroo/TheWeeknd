@@ -4,6 +4,7 @@
 @import "carrera";
 @import "galeria";
 @import "contacto";
+@import "mediaquery";
 body{
     padding: 0;
     margin: 0;
@@ -15,42 +16,41 @@ body{
 header{
     padding: 25px;
     display: flex;
-    flex-direction: row;
     justify-content: space-around;
+    flex-direction: row;
     background-color: $fondoHeader;
 }
 h1{
     color: $colorTitulos;
     font-size: 50px;
-    font-family: 'Cormorant Garamond', serif; 
+    font-family: 'Cormorant Garamond', serif;
 }
 nav{
+    width: 50%;
     display: flex;
-    justify-content: space-around;
     align-items: center;
 }
 ul{
     width: 100%;
     list-style: none;
-    display: flex;
-    flex-flow: row nowrap;
     font-family: "Mohave", serif;
     font-size: 100%;
 }
-a{
-    text-decoration: none;
-    color: rgb(255, 255, 255);
-    &:hover{
-        color: rgb(61, 5, 5);
-        border-bottom: solid;
-    }
+li:hover{
+    color: rgb(61, 5, 5);
+    border-bottom: solid;
 }
 h2{
     text-align: center;
     font-family: 'Mohave', sans-serif;
     color: $colorTitulos;
     font-size: 150%;
-    margin: 10px;
+    margin:10px;
+}
+a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    
 }
 h3{
     font-family: 'Mohave', sans-serif;

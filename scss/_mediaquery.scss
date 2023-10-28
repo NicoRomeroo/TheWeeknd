@@ -1,0 +1,114 @@
+//MediaQueriesDelNav
+@media (min-width: 0px){
+    ul{
+        height: 100%;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-around;
+    }
+}
+@media (min-width: 768px){
+    ul{
+        height: 100%;
+        width: 100%;
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: space-around;
+        align-items: center;
+    }
+}
+//MediaQueriesDeCarreraArtistica
+@media (min-width: 300px){
+    .primerosAñosDeVidaInfo{
+        display: flex;
+        flex-direction: column;
+        margin: 15px;
+        padding: 10px;
+    }
+}
+@media (min-width: 768px){
+    .primerosAñosDeVidaInfo{
+        display: flex;
+        flex-direction: row;
+        padding: 40px;
+    }
+}
+@media (min-width: 300px){
+    .iniciosDeSuCarreraYMixtapesInfo{
+        display: flex;
+        flex-direction: column;
+        margin: 15px;
+        padding: 10px;
+    }
+}
+@media (min-width: 768px){
+    .iniciosDeSuCarreraYMixtapesInfo{
+        display: flex;
+        flex-direction: row;
+        padding: 40px;
+    }
+}
+@media (min-width: 300px){
+    .trilogyKissLandInfo{
+        display: flex;
+        flex-direction: column;
+        margin: 15px;
+        padding: 10px;
+    }
+}
+@media (min-width: 768px){
+    .trilogyKissLandInfo{
+        display: flex;
+        flex-direction: row;
+        padding: 40px;
+    }
+}
+@media (min-width: 300px){
+    .beautyBehindTheMadnessInfo{
+        display: flex;
+        flex-direction: column;
+        margin: 15px;
+        padding: 10px;
+    }
+}
+@media (min-width: 768px){
+    .beautyBehindTheMadnessInfo{
+        display: flex;
+        flex-direction: row;
+        padding: 40px;
+    }
+}
+@media (min-width: 300px){
+    .starboyYMyDearMelancholyInfo{
+        display: flex;
+        flex-direction: column;
+        margin: 15px;
+        padding: 10px;
+    }
+}
+@media (min-width: 768px){
+    .starboyYMyDearMelancholyInfo{
+        display: flex;
+        flex-direction: row;
+        padding: 40px;
+
+    }
+}
+@media (min-width: 300px){
+    .afterHoursYDawnFMInfo{
+        display: flex;
+        flex-direction: column;
+        margin: 15px;
+        padding: 10px;
+    }
+}
+@media (min-width: 768px){
+    .afterHoursYDawnFMInfo{
+        display: flex;
+        flex-direction: row;
+        padding: 40px;
+    }
+}
