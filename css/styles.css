@@ -360,7 +360,7 @@ body {
 }
 
 header {
-  padding: 25px;
+  padding: 5px;
   display: flex;
   justify-content: space-around;
   flex-direction: row;
